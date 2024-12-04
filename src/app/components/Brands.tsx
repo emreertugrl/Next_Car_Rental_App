@@ -1,5 +1,5 @@
 const Brands = () => {
-  return <div>Brands</div>;
+  return <div className="container">Brands</div>;
 };
 
 export default Brands;
