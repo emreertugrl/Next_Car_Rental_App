@@ -1,9 +1,9 @@
-import Title from "./../../../components/Title";
-import BreadCrumb from "./../../../components/BreadCrumb";
-import Images from "./../../../components/Images";
-import Overview from "./../../../components/Overview";
-import OrderBox from "./../../../components/OrderBox";
-import { getDetail } from "./../../../utils/service";
+import Title from "@/app/components/Title";
+import BreadCrumb from "@/app/components/BreadCrumb";
+import Images from "@/app/components/Images";
+import Overview from "@/app/components/Overview";
+import OrderBox from "@/app/components/OrderBox";
+import { getDetail } from "@/app/utils/service";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -19,7 +19,7 @@ const Detail = async ({ params }: Props) => {
       <div className="h-[70px] md:h-[130px] bg-black"></div>
       <div className="container mt-5">
         <BreadCrumb name={vehicle.make + " " + vehicle.model} />
-        <Title />
+        <Title car={vehicle} />
         <Images />
         <div className="grid xl:grid-cols-5 gap-x-10 my-10">
           <div className="xl:col-span-4">
