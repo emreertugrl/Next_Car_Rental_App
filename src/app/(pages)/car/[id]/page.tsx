@@ -18,7 +18,7 @@ const Detail = async ({ params }: Props) => {
     <div>
       <div className="h-[70px] md:h-[130px] bg-black"></div>
       <div className="container mt-5">
-        <BreadCrumb />
+        <BreadCrumb name={vehicle.make + " " + vehicle.model} />
         <Title />
         <Images />
         <div className="grid xl:grid-cols-5 gap-x-10 my-10">
