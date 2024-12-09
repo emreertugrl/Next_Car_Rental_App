@@ -5,7 +5,7 @@ const Header = () => {
     <div className={`text-white w-full absolute`}>
       <div className="container flex justify-between items-center w-full">
         <h1 className="font-bold text-2xl md:text-3xl">
-          <Link href="/home">DRIVE</Link>
+          <Link href="/">DRIVE</Link>
         </h1>
         <nav className="text-sm md:text-base flex gap-2 md:gap-4">
           <Link href="/">Keşfet</Link>
