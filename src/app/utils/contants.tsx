@@ -1,14 +1,14 @@
-import car from "../assets/icons/car.svg";
-import car2 from "../assets/icons/car-2.svg";
-import car3 from "../assets/icons/car-3.svg";
-import car4 from "../assets/icons/car-4.svg";
-import car5 from "../assets/icons/car-5.svg";
-import b1 from "../assets/brands/b1.png";
-import b2 from "../assets/brands/b2.png";
-import b3 from "../assets/brands/b3.png";
-import b4 from "../assets/brands/b4.png";
-import b5 from "../assets/brands/b5.png";
-import b6 from "../assets/brands/b6.png";
+import car from "@/app/assets/icons/car.svg";
+import car2 from "@/app/assets/icons/car-2.svg";
+import car3 from "@/app/assets/icons/car-3.svg";
+import car4 from "@/app/assets/icons/car-4.svg";
+import car5 from "@/app/assets/icons/car-5.svg";
+import b1 from "@/app/assets/brands/b1.png";
+import b2 from "@/app/assets/brands/b2.png";
+import b3 from "@/app/assets/brands/b3.png";
+import b4 from "@/app/assets/brands/b4.png";
+import b5 from "@/app/assets/brands/b5.png";
+import b6 from "@/app/assets/brands/b6.png";
 
 export const models = [
   {

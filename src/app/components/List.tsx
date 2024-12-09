@@ -1,4 +1,4 @@
-import { getCars } from "../utils/service";
+import { getCars } from "@/app/utils/service";
 import Card from "./Card";
 
 const List = async () => {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { models } from "./../utils/contants";
+import { models } from "@/app/utils/contants";
 const Hero = () => {
   return (
     <div className="h-[80vh] l-gradient grid place-items-center p-5  bg-center bg-cover text-white bg-[#00000084]">

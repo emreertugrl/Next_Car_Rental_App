@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { brands } from "../utils/contants";
+import { brands } from "@/app/utils/contants";
 
 const Brands = () => {
   return (

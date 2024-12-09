@@ -1,10 +1,10 @@
 import Image, { StaticImageData } from "next/image";
-import { CarType } from "../utils/types";
+import { CarType } from "@/app/utils/types";
 import Link from "next/link";
-import arrow from "../assets/icons/arrow.svg";
-import mile from "../assets/icons/mile.svg";
-import transmission from "../assets/icons/transmission.svg";
-import gas from "../assets/icons/gas.svg";
+import arrow from "@/app/assets/icons/arrow.svg";
+import mile from "@/app/assets/icons/mile.svg";
+import transmission from "@/app/assets/icons/transmission.svg";
+import gas from "@/app/assets/icons/gas.svg";
 type Props = {
   car: CarType;
 };
