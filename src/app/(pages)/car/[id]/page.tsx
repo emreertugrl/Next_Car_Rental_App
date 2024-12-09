@@ -23,7 +23,7 @@ const Detail = async ({ params }: Props) => {
         <Images url={vehicle.imageUrl} />
         <div className="grid xl:grid-cols-5 gap-x-10 my-10">
           <div className="xl:col-span-4">
-            <Overview />
+            <Overview car={vehicle} />
           </div>
           <OrderBox />
         </div>
