@@ -21,11 +21,13 @@ const Detail = async ({ params }: Props) => {
         <BreadCrumb name={vehicle.make + " " + vehicle.model} />
         <Title car={vehicle} />
         <Images url={vehicle.imageUrl} />
-        <div className="grid xl:grid-cols-5 gap-x-10 my-10">
-          <div className="xl:col-span-4">
+        <div className="grid xl:grid-cols-5 gap-x-10 my-10 gap-5">
+          <div className="md:col-span-3">
             <Overview car={vehicle} />
           </div>
-          <OrderBox />
+          <div className="md:col-span-2">
+            <OrderBox car={vehicle} />
+          </div>
         </div>
       </div>
     </div>
