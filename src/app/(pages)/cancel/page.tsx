@@ -10,14 +10,14 @@ const Cancel = () => {
           <Image src={cancel} alt="cancel" width={80} height={80} />
 
           <p className="text-center text-4xl font-semibold">
-            Malesef, Ödeme başarısız oldu
+            Maalesef, Ödeme başarısız oldu
           </p>
         </div>
       </div>
 
       <div className="p-10 mt-10 text-center">
         <p className="text-lg mb-10">
-          Anasayfaya dönüp tekrardan deneyebilirsiniz.
+          Anasayfa'ya dönüp tekrardan deneyebilirsiniz.
         </p>
 
         <Link
