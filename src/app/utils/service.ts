@@ -5,7 +5,7 @@ type DetailRes = Promise<{
   vehicle: CarType;
 }>;
 export const getDetail = async (id: string): DetailRes => {
-  const res = await fetch(`${process.env.BASE_API_URL}/vehicles/${id}`);
+  const res = await fetch(`${process.env.BASE_API_URL}/api/vehicles/${id}`);
 
   if (!res.ok) throw new Error("Araç detayları alınırken bir hata oluştu");
 
@@ -18,7 +18,7 @@ type CarsRes = Promise<{
 }>;
 
 export const getCars = async (): CarsRes => {
-  const res = await fetch(`${process.env.BASE_API_URL}/vehicles`);
+  const res = await fetch(`${process.env.BASE_API_URL}/api/vehicles`);
   if (!res.ok) {
     throw new Error("Araçları alırken bir hata oluştu");
   }
@@ -31,7 +31,7 @@ type OrderRes = Promise<{
 }>;
 
 export const getOrders = async (): OrderRes => {
-  const res = await fetch(`${process.env.BASE_API_URL}/orders``);
+  const res = await fetch(`${process.env.BASE_API_URL}/api/orders`);
   if (!res.ok) {
     throw new Error("Siparişleri alırken bir hata oluştu");
   }
